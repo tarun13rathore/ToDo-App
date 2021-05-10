@@ -203,3 +203,31 @@ input:focus {
   -webkit-transform: translateY(0) scale(1, 1);
   transform: translateY(0) scale(1, 1);
 }
+@media only screen and (max-width: 360px) {
+  input, input:focus, input:active, input:active:focus {
+    border: none;
+    outline: none;
+}
+input {
+  /* display: block; */
+  min-width: 28rem;
+ 
+}
+
+}
+@media only screen and (max-width: 414px) {
+  input, input:focus, input:active, input:active:focus {
+    border: none;
+    outline: none;
+}
+input {
+  /* display: block; */
+  min-width: 28rem;
+ 
+}
+
+}
+.copy{
+  text-align: center;
+  color: blueviolet;
+}

@@ -75,6 +75,9 @@ const Todo = () => {
                         <button className="btn effect04" data-sm-link-text="Remove All" onClick={removeAll}><span> CHECK LIST </span> </button>
                     </div>
                 </div>
+          </div>
+          <div className="container ">
+          <h2 className="copy">ToDoApp:- Created By Tarun Rathore</h2>
           </div>  
         </>
     )
